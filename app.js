@@ -7,6 +7,20 @@ $(document).ready(function () {
 		var width = $(window).outerWidth();
         console.log(width);
 	})
+    var  menuSet = $('.bottomLogo').offset().top;
+    $(window).on('scroll', function () {
+        var menu = $('.bottomLogo');
+        var check = $(this).scrollTop();
+        if (check>menuSet) {
+            menu.css('position','fixed');
+            menu.css('top','0');
+        }
+        else {
+            menu.css('position','');
+            menu.css('top','');
+        }
+    });
+    
     $('.scrollSpace1').mousedown(function () {
         var ammond =$('.ammond');
         
@@ -17,9 +31,7 @@ $(document).ready(function () {
        
             var position = event.clientX - $(this).offset().left-target/2;
             var scrolPointer = $('.ScrollPointer1').css('position', 'relative');
-        
             var ten = wid-target/2;
-            
             var first = ten*0.1;
             var second = ten*0.2;
             var third = ten*0.3;

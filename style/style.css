@@ -33,7 +33,10 @@ input[type="text" i] {
   width: 100px; }
 
 .bottomLogo {
-  background-color: white; }
+  background-color: white;
+  width: 65vw;
+  max-width: 936px;
+  z-index: 10; }
 
 .safeBank {
   float: left;
@@ -386,10 +389,10 @@ body > footer > div.bottomFotter {
 @media all and (min-width: 800px) {
   .spaceAdd {
     padding-left: 10px;
-    padding-right: 17vw; }
+    padding-right: 300px; }
 
   .spaceAdd2 {
-    padding-right: 14vw; }
+    padding-right: 255px; }
 
   nav {
     height: 46vw; }
@@ -555,7 +558,7 @@ body > footer > div.bottomFotter {
     max-height: 460px; }
 
   body > div > section:nth-child(2) > h3 > span.moreInfo {
-    padding-left: 8vw; }
+    padding-left: 117px; }
 
   header {
     width: 65vw;
@@ -567,7 +570,7 @@ body > footer > div.bottomFotter {
     max-height: 150px; }
 
   .footerFloater {
-    padding-left: 90px; }
+    padding-left: 70px; }
 
   .navRigthCloud {
     width: 32vw;
@@ -593,13 +596,13 @@ body > footer > div.bottomFotter {
     max-width: 345px; }
 
   .line {
-    width: 24vw; }
+    width: 324px; }
 
   body > div > section:nth-child(1) > p.getMoreInfo {
     padding-top: 3.5vw; }
 
   .logoList div {
-    height: 8vw; }
+    height: 50px; }
 
   article {
     width: 65vw;
@@ -614,7 +617,8 @@ body > footer > div.bottomFotter {
     width: 65vw;
     max-width: 936px; }
     footer .footerFloater {
-      float: left; }
+      float: left;
+      width: 25%; }
     footer div.bottomFotter > h5:nth-child(2) {
       float: left; }
     footer div.bottomFotter > h5:nth-child(3) {
