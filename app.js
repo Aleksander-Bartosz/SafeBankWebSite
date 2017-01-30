@@ -8,10 +8,14 @@ $(document).ready(function () {
         console.log(width);
 	})
     var  menuSet = $('.bottomLogo').offset().top;
+    
     $(window).on('scroll', function () {
+        var header = $('header').width()+'px';
+        console.log(header);
         var menu = $('.bottomLogo');
         var check = $(this).scrollTop();
         if (check>menuSet) {
+            menu.css('width',header);
             menu.css('position','fixed');
             menu.css('top','0');
         }
