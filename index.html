@@ -1,114 +1,164 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
-  <head>
+<head>
     <meta charset="UTF-8">
-     <link rel="stylesheet" href="css/style.css"/>
-      <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-	  <script src="jquery-3.1.1.min.js"></script>
+    <title>Bezpieczny Bank</title>
+	<link rel='stylesheet' type='text/css' href='style/style.css'>
+    <meta name='viewport' content='initial-scale=1.0, width=device-width'>
+    <script src="jquery-3.1.1.min.js"></script>
+    
     <script src='app.js'></script>
-    <title>go</title>
-  </head>
-  <body>
-      <header>
-          <div class='contentContainer'>
-              <div class='choco more'></div>
-              <div class='cloud more'></div> 
-                <div class='circle1 rad'></div>
-                <div class='circle2 rad'></div>
-                <div class='circle3 rad'></div>
-              <ul>
-                  <li>START</li>
-                  <li>GALLERY</li>
-                  <li>ABOUT</li>
-                  <li>OFFER</li>
-                  <li>CONTACT</li>
-              </ul>
-          </div>
-      </header>
-      <nav>
-          <div class='contentContainer'>
-            <div>  
-              <div class='navText'>
-                  <h1>Lets' talk about fruits</h1>
-                  <p>Croissant tiramisu soufflé powder gingerbread bonbon. Sweet roll topping chocolate jelly jelly. Gummi bears jelly beans marzipan jujubes lollipop. Halvah lemon drops apple pie marzipan chupa chups gingerbread cotton candy muffin.</p>
-              </div>
-              <img src='css/img/shakephoto.png' class='navphoto'></img>
-            </div>  
-          </div>          
-      </nav>
-      <section>
-          <div class='contentContainer'>
-              <diV class='firstSectionText'>
-                  <h1>The historical location</h1>
-                  <img src='css/img/articleChocolate.png' class='imgfloater'></img>
-                    <p>Marshmallow dragée sweet roll. Candy marshmallow pie chocolate cake. Toffee chocolate wafer chocolate cake powder gummi bears halvah. Carrot cake croissant sesame snaps pie cookie powder gingerbread bear claw ice cream. Tootsie roll pie brownie jujubes gummies sesame snaps sugar plum. Icing chocolate cotton candy carrot cake lollipop cheesecake topping gummi bears. Jelly halvah jujubes jelly beans toffee macaroon croissant halvah. Jelly-o candy cupcake sweet roll fruitcake. Oat cake ice cream bear claw topping cotton candy topping cupcake sesame snaps. Gummies sesame snaps chupa chups pastry bonbon danish lemon drops cookie. Halvah lemon drops apple pie marzipan chupa chups gingerbread cotton candy muffin. Halvah lemon drops apple pie marzipan chupa chups gingerbread cotton candy muffin.</p>
-              </diV>
-              <div class='sizingTextSection'>
-                  <p class='colorBig main'>Chocolate cake</p>
-                  
-                  <p><span class='colorSmall'>Donut </span><span class='greyspan'>Marzipan pie </span>Jelly<span class='colorSmall'>desset</span><span class='colorBig'>Sweet </span>chupa chups <span class='colorSmall'>Bonbon </span>sesame<span class='greyspan'>cream </span><span class='colorSmall'>pudding </span><span class='colorSmall'>Halvah cookie </span>toffee<span class='greyspan'>gingerbeard </span>tea <span class='colorBig'>tiramisu </span>sugar <span class='colorSmall'>plum </span>apple pie <span class='colorSmall'>banana </span><span class='greyspan'>sesame snaps </span><span class='colorBig'>muffin </span><span class='colorBig'>lemon drops </span><span class='colorSmall'>lolipop pear cookie</span>caramels<span class='greyspan'>melon </span>orange jelly <span class='colorSmall'>sweet </span><span class='greyspan'>watermelon </span><span class='colorSmall'>biscuit</span><span class='greyspan'>Soufle</span>
-                  </p>
-              </div>
-          </div>      
-      </section>
-      <article>
-          <diV class='contentContainer'>
-              <h1>Our work</h1>
-              <div class='textGallery'>
-                  
-                  <p>Marshmallow dragée sweet roll. Candy marshmallow pie chocolate cake. Toffee chocolate wafer chocolate cake powder gummi bears halvah.<br><br>
-                  Caramels candy halvah apple pie bonbon dragée sweet roll. Icing chocolate gummies pudding jelly beans marzipan fruitcake danish fruitcake. Dessert bear claw toffee bear claw pastry cotton candy. Liquorice chupa chups chupa chups. Pudding gummies halvah gummi bears macaroon. Carrot cake tiramisu marshmallow biscuit ice cream.</p>
-              </div>
-              <div class='gallery'>
-                  <img src='css/img/gallery/galler1.png'></img>
-                  <img src='css/img/gallery/galler2.png'></img>
-                  <img src='css/img/gallery/galler3.png'></img>
-                  <img src='css/img/gallery/galler4.png'></img>
-                  <img src='css/img/gallery/galler5.png'></img>
-                  <img src='css/img/gallery/galler6.png'></img>
-              </div>
-          </diV>
-      </article>
-        <aside>
-            <div class='contentContainer'>
-                <div class='textside'>
-                    <h1>The best food in the world</h1>
-                    <p>Cotton candy pastry carrot cake lemon drops cake tootsie roll. Macaroon pastry candy bonbon tootsie roll gummies chupa chups topping. Cookie bear claw dragée tiramisu ice cream chocolate bar sugar plum. Wafer pudding cake topping ice cream apple pie marzipan gummies.Wafer pudding cake topping ice cream apple pie marzipan gummies</p>
+</head>
+<body>
+    <header>
+        <div class='logoSearch'>
+            <h1>BB</h1>
+            <img src='style/img/koniczynka.png' height="42" width="42"></img>
+			
+			   <div class='left'>	
+					<input type="text" name="search" placeholder="Szukaj">
+					<img src='style/img/lupka.png' height="30" width="30"></img>
+					<button class='navButton'>Zaloguj</button>
+				</div>
+			
+        </div>
+            <div class='bottomLogo'>
+                <h3 class='safeBank'>Bezpieczny Bank</h3>
+                
+                 <div id="nav-icon1">
+                    <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class='clearner'></div>
+                <div class='logoList off'>
+                    <div>Klienci Indywidualni</div>
+                    <div>Oferta</div>
+                    <div>Firmy | Studenci | VIP</div>
                 </div>
             </div>
-            <div class='photo'></div>
-            <div class='contentContainer'>
-                <div class='shapetext'>
-                    <p>Oat cake candy canes icing sugar plum tootsie roll. Marshmallow cake halvah gummies dragée sweet roll lemon drops. Donut biscuit sugar plum halvah. Wafer jelly-o soufflé muffin. Icing jelly powder jelly beans soufflé apple pie.</p>
-                    <p>Oat cake candy canes icing sugar plum tootsie roll. Marshmallow cake halvah gummies dragée sweet roll lemon drops. Donut biscuit sugar plum halvah. Wafer jelly-o soufflé muffin. Icing jelly powder jelly beans soufflé apple pie.</p>
-                </div>
-                <img src='css/img/shape.png' class='shape'></img>
+    </header>
+    <nav>
+        <div class='navRigthCloud'>
+            <div class='paraNavHolder'>
+                <p class='firstCloudpara'>Skorzystaj ze specjalnej oferty</p>
+                <p class='secondCloudPara'>PODRÓŻUJ BEZ OBAW</p>
+                <button name='try'>SPRAWDŹ</button>
+            </div>        
+        </div>
+    </nav>
+	
+	<div>
+    <section>
+        <img src='style/img/keys.png' name='key'></img>
+        <h2 class='getCredit'>Kredyt hipoteczny</h2>
+        <p class='sectionPara'>Phasellus vehicula fringilla ullamcorper. Quisque sollicitudin tempus tellus ut viverra. Cras congue ligula vel aliquet egestas. Praesent tempor elit nulla, id accumsan eros sollicitudin sit amet.
+        </p>
+        <p class='getMoreInfo'>Dowiedz się więcej</p>
+        <div class='myClear'></div>
+    </section>
+	
+    <section>
+        <h2 class='getPoor'>Pożyczka gotówkowa</h2>
+        <p class='getPoorPara spaceAdd'>Kwota</p>
+        <p class='getPoorPara ammond'>100</p>
+        <div class='scrollSpace1'>
+            <div class='ScrollPointer1'>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
-        </aside>
-       <footer>
-           <div class='contentContainer'>
-               <div class='cookies'></div>
-               <div CLASS='cookietext'>
-                   <h1>Yumyyy Ymuu muffins</h1>
-                   <p>Cupcake danish jelly-o bonbon chocolate cake. Icing gingerbread candy cotton candy. Ice cream lollipop carrot cake gummies caramels carrot cake. Chocolate tootsie roll marshmallow tootsie roll marzipan carrot cake. Biscuit ice cream biscuit cheesecake icing.</p>
-                   <p>read more</p>
-               </div>
-               
-               <div class='downFooter'>
-                <div>
-                   <p class='footerPara'>PHONE: <span>659-985-625</span></p>
-                   <p class='footerPara'>PLACE: <span>Warszawa</span></p>
-                </div> 
-                <div>  
-                   <p class='footerPara'>EMAIL: <span>chocolate@chocolate.com</span></p>
-                   <p class='footerPara'>TWITTER: <span>chocolate</span></p>
-                   <p class='footerPara'></p>
-                </div>
-               </div>
-               <hr>
-               <p class='lastpara'>&copy; Copyright THE BEST CHOCOLATE 2016 Aleksander Bartosz *All reserver* Mail contant@contant.com</p>
-           </div>       
-       </footer>
+        </div>
+        <p class='getPoorPara spaceAdd2'>Czas trwania</p>
+        <p class='getPoorPara time'>10 dni</p>
+        <div class='scrollSpace2'>
+            <div class='ScrollPointer2'>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class='line'></div>
+        <h3 class='PayPara'>Rata <span>50 zł</span>
+            <span class='moreInfo'>Dowiedz Się Więcej</span>
+        </h3>
+    </section>
+	</div>
+	
+    <article>
         
-  </body>
+        <div class='articFloat'>
+            <img src='style/img/Layer%2012.png' height="80" width="100" name='pc'></img>
+            <h2 class='textArticle'>Konto Online</h2>
+            <h3 class='spanArticle'>Załóż konto internetowe</h3>
+            <br>
+            <button class='articleBottom'>Otwórz Konto</button>
+        </div>
+
+        <div class='articFloat middleItem'>
+            <img src='style/img/cloud.png' height="80" width="100" name='pc'></img>
+            <h2 class='textArticle'>Rozpocznij Czat</h2>
+            <h3 class='spanArticle'>Porozmawiaj z Doradca</h3>
+            <br>
+            <button class='articleBottom'>Zapytaj</button>
+        </div>   
+
+        <div class='articlediv'>
+            <img src='style/img/procent.png' height="80" width="100" name='pc'></img>
+            <h2 class='textArticle'>Kredyt Gotówkowy</h2>
+            <h3 class='spanArticle'>Ustal rate splaty</h3>
+            <br>
+            <button class='articleBottom'>Sprawdz</button>
+        </div>
+
+        <div style='clear: both'></div>
+    </article>
+    <footer>
+     <div class='footerFloater'>
+        <h3 class='footerH'>Klienci Indiwidualni</h3>
+        <ul class='footerUls'>
+            <li><span>Konta</span></li>
+            <li><span>Oszczędności</span></li>
+            <li><span>Kredyty</span></li>
+            <li><span>Karty</span></li>
+            <li><span>Ubezpieczenia</span></li>
+            <li><span>Inwestycje</span></li>
+            <li><span>Programy</span></li>
+            <li><span>Bankowość elektroniczna</span></li>
+        </ul>
+     </div>           
+     <div class='footerFloater'>   
+        <h3 class='footerH'>Klienci VIP Premium</h3>
+        <ul class='footerUls'>
+            <li><span>Konta</span></li>
+            <li><span>Lokaty i Inwestycje</span></li>
+            <li><span>Kredyty</span></li>
+            <li><span>Karty</span></li>
+            <li><span>Ubezpieczenia</span></li>
+            <li><span>Ubezpieczenia i inwestycje</span></li>
+            <li><span>Programy</span></li>
+            <li><span>Program Vip Premium </span></li>
+        </ul>
+     </div> 
+     <div class='footerFloater addSpace'>     
+        <h3 class='footerH'>Klienci VIP Premium</h3>
+        <ul class='footerUls'>
+            <li><span>Konta</span></li>
+            <li><span>Lokaty i Inwestycje</span></li>
+            <li><span>Kredyty</span></li>
+            <li><span>Karty</span></li>
+            <li><span>Ubezpieczenia</span></li>
+            <li><span>Ubezpieczenia i inwestycje</span></li>
+            <li><span>Programy</span></li>
+            <li><span>Program Vip Premium </span></li>
+        </ul>
+      </div>
+            <div style='clear:both;'></div>
+        <div class='bottomFotter'>
+            <h4>801 222 222</h4>
+            <h5>&#169;2015 Bezpieczny bank SA Wszelkie prawa zastrzeżone Korzystanie z serwisu oznacza akceptacje regulaminu</h5>
+            <h5>Mapsa serwisu | English | Twitter | Facebook</h5>
+        </div>
+    </footer>
+</body>
 </html>
